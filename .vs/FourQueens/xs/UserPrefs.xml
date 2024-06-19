@@ -1,14 +1,17 @@
 ﻿<Properties StartupConfiguration="{06965148-33C5-642C-322F-A7744967EE65}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Camera.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="16" Column="25" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="37" Column="6" />
+      <File FileName="Assets/Scripts/Camera.cs" Line="5" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FourQueens" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Camera.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

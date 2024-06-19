@@ -14,7 +14,8 @@ public class PlayerMovement : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
@@ -22,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
