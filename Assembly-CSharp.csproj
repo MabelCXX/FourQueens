@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/item_collector.cs" />
     <Compile Include="Assets/Scripts/Camera.cs" />
+    <Compile Include="Assets/Scripts/PlayerLife.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
