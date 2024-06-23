@@ -2,17 +2,15 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerLife.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/item_collector.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/item_collector.cs" />
       <File FileName="Assets/Scripts/PlayerLife.cs" Line="10" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FourQueens" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="PlayerLife.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -26,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="04eb65eb-adc8-4d0f-9807-1a4b65a53531" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8c53412a-8ff6-4014-9aab-5a4e4bcc5d89" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
