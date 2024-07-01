@@ -39,7 +39,7 @@ Navigate through the levels by jumping on platforms and avoiding or defeating en
 The primary objective of "Story in Cloud" is to navigate through levels, overcome obstacles, and defeat enemies to rescue the protagonist's partner. Success in the game is achieved by using a combination of skills, strategy, and timely use of controls.
 
 ### How to Win
-- Complete Levels: Each level is designed with unique challenges and enemies. Completing a level requires reaching the designated endpoint without losing all lives.
+- Complete Levels: Each level is designed with unique challenges and enemies.
 - Collect Items: Throughout the game, collect items like strawberries for points.
 - Defeat Bosses: Some levels may contain boss fights, which are more challenging and require understanding the boss's patterns and exploiting their weaknesses.
 
