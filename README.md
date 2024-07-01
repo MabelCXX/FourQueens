@@ -22,7 +22,7 @@ To compile the project, navigate to the project directory and build using Unity'
 
 To access the game, navigate to the GitHub Pages URL where the game is hosted:
 ```bash
-https://MabelCXX.github.io/FourQueens/srotyincloud1.0/
+https://mabelcxx.github.io/FourQueens/sic/
 ```
 
 ## Controls
