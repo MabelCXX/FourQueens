@@ -515,10 +515,10 @@ GameObject:
   m_Component:
   - component: {fileID: 756669013}
   - component: {fileID: 756669012}
-  - component: {fileID: 756669011}
   - component: {fileID: 756669010}
   - component: {fileID: 756669009}
   - component: {fileID: 756669014}
+  - component: {fileID: 756669015}
   m_Layer: 0
   m_Name: CheckPoint
   m_TagString: Untagged
@@ -592,18 +592,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &756669011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 756669008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc457d6c56aaa3646899c3916ec6d8f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &756669012
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -767,6 +755,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &756669015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756669008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182acc88238b84f9dbccb0265a2e416b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &763428080
 GameObject:
   m_ObjectHideFlags: 0
@@ -2242,7 +2242,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0011143982, y: -0.076893985}
+  m_Offset: {x: -0.0011143982, y: -0.004938245}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2253,7 +2253,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.13102546, y: 0.16621202}
+  m_Size: {x: 0.13102546, y: 0.3101235}
   m_EdgeRadius: 0
 --- !u!1 &1651270170
 GameObject:
@@ -2437,7 +2437,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.003149949, y: -0.02204752}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2448,7 +2448,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.1111112}
+  m_Size: {x: 0.47715783, y: 1.0670161}
   m_EdgeRadius: 0
 --- !u!50 &1834261452
 Rigidbody2D:
@@ -2620,7 +2620,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a0010a1a0c474473b81729eb770c485f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1cc38c550c4d36c47afc74657de01493, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2812,7 +2812,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7bd6b897eb5ca4b7d88a205c4a51640c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1cb6108b8b7ceb44699881e385275c15, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3325,7 +3325,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0004787743, y: -0.010038689}
+  m_Offset: {x: -0.00030751526, y: -0.010038689}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3336,7 +3336,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.32379514, y: 0.041064154}
+  m_Size: {x: 0.26247057, y: 0.041064154}
   m_EdgeRadius: 0
 --- !u!61 &1982229722
 BoxCollider2D:
@@ -3370,7 +3370,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.020028831}
+  m_Offset: {x: -0.000000074505806, y: 0.020028831}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3381,7 +3381,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.020334374}
+  m_Size: {x: 0.25710306, y: 0.020334374}
   m_EdgeRadius: 0
 --- !u!114 &1982229723
 MonoBehaviour:

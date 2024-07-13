@@ -42,7 +42,10 @@ public class PlayerMovement : MonoBehaviour
 
         UpdateAnimationState();
     }
-
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        Debug.Log(other.name);
+    }
     private void UpdateAnimationState()
     {
         if (dirX > 0f)
@@ -63,9 +66,16 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+
     private bool IsGrounded()
     {
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
     }
 
+    public void PlayerHurt()
+    {
+        anim.SetTrigger("hurt");
+    }
+
 }
+
