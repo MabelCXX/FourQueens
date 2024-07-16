@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Strawberry
   - Trap
+  - MovingPlatform
   layers:
   - Default
   - TransparentFX
