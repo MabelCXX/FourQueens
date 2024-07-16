@@ -23,7 +23,7 @@ To compile the project, navigate to the project directory and build using Unity'
 To access the game, navigate to the GitHub Pages URL where the game is hosted:
 ```bash
 - Version 1.0: https://mabelcxx.github.io/FourQueens/sic/
-- Version 2.0: 
+- Version 2.0: https://mabelcxx.github.io/FourQueens/sic2.0/
 ```
 
 ## Controls
