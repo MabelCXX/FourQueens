@@ -27,6 +27,11 @@ public class Finish : MonoBehaviour
 
     private void CompleteLevel()
     {
+
+        AllControl.GameManager.Instance.final = AllControl.GameManager.Instance.score;
+        AllControl.GameManager.Instance.score = 0;
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        
     }
 }

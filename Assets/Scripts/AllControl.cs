@@ -18,6 +18,7 @@ public class AllControl : MonoBehaviour
 
         }
         public int score = 0;
+        public int final = 0;
     }
    
 }
