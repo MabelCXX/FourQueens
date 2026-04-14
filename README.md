@@ -67,7 +67,7 @@ If you're still having trouble, please contact us.
 For support or queries, please email us at:
 ```bash
 - Xiao Chen: X.Chen3@campus.lmu.de
-- Yili Li: daliyili00@gamil.com
+- Yili Li: daliyili00@gmail.com
 - Yitong Lu: 913378544@qq.com
 - Yuanyuan Qu: quyuanyuan0917@outlook.com
 ``````
